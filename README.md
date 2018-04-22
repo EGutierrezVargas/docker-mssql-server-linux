@@ -1,1 +1,18 @@
-# docker-mssql-server-linux
+# Instalación de MSSQL SERVER EN DOCKER #
+
+#### Requerimientos ####
+
+* [Docker](https://www.docker.com/)
+
+#### Configurar el ambiente de desarrollo ####
+
+* Clonar el repositorio. 
+* Instalamos el ambiente de desarrollo: 
+  `docker-compose up -d`
+  
+#### Comandos disponibles ####
+
+* `docker-compose start` iniciar el ambiente de desarrollo.
+* `docker-compose stop` detener el ambiente de desarrollo.
+* `docker-compose down` detener y eliminar el ambiente de desarrollo.
+* `docker ps -a` verificar que contenedor está corriendo.
