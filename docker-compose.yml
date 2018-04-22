@@ -1,0 +1,15 @@
+version: '3'
+services:
+  sqlserver:
+    image: microsoft/mssql-server-linux:2017-latest #Imagen mssql-server
+    container_name: mssql-server #Name container
+    volumes:
+      - ./mssql-server-linux-data:/var/opt/mssql/
+      - /var/opt/mssql/data #Files on restore Backup .bak
+    ports:
+      - 8020:1433 #Port for connection to remote
+      - 8021:1434 #Port for connection to remote
+    environment:
+      - ACCEPT_EULA=Y
+      - MSSQL_SA_PASSWORD=yourpassword
+    restart: always
