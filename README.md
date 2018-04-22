@@ -16,3 +16,7 @@
 * `docker-compose stop` detener el ambiente de desarrollo.
 * `docker-compose down` detener y eliminar el ambiente de desarrollo.
 * `docker ps -a` verificar que contenedor está corriendo.
+
+### Restaurar un backup de una base de datos ###
+docker cp archivoraiz nombredelcontenedor:ruta(/var/opt/mssql/)
+* `docker cp Bk_dbaperhu mssql-server:/var/opt/mssql/`
