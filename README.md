@@ -1,4 +1,4 @@
-# Instalación de MSSQL SERVER EN DOCKER #
+# Instalación de MSSQL SERVER LINUX EN DOCKER #
 
 #### Requerimientos ####
 
