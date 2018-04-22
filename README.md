@@ -19,4 +19,4 @@
 
 ### Restaurar un backup de una base de datos ###
 docker cp archivoraiz nombredelcontenedor:ruta(/var/opt/mssql/)
-* `docker cp Bk_dbaperhu mssql-server:/var/opt/mssql/`
+* `docker cp Bk_dbname.bak mssql-server:/var/opt/mssql/backup.bak`
